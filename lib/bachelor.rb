@@ -60,7 +60,9 @@ def get_average_age_for_season(data, season)
   counter = 0
   age_total = 0
   
-  data.each
+  data[season].each {|person|
+    binding.pry
+  }
   
   
   
